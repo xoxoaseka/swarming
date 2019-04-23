@@ -9,7 +9,7 @@ Empirical study of human crowd behaviour have started over 50 years ago. But bui
 
 ## Problem type
 
-Using unsupervised learning techniques, simulated agents can learn and adjust their behaviours without knowing the scenario’s layout, based in learnt patterns around environment features.
+Using unsupervised learning techniques, simulated agents can learn and adjust their behaviours without knowing the scenario’s layout, based on learnt patterns around environment features.
 
 Given that IRL not only allows to train agents into achieving concrete goals like crossing intersection, it can also learn different behavior patterns. It opens up possiblity of simulating real-life scenarios based on primary data (trajectories extracted from video recording of the streets in urban areas).
 
