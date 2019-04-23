@@ -17,10 +17,11 @@ Given that IRL not only allows to train agents into achieving concrete goals lik
 
 Currently existing behavior cognitive models for pedestrians are very specific to the domain, not scalable and assume the reward or utility functions as a given. But in complex scenatios, like intersection crossing, agent's utility function is often unknown. To solve this problem, it is reasonable to use Inverse Reinforcement Learning (IRL). IRL methods work on cases when the reward function is hidden. Therefore, it is ideal for modeling humans behavior. Given that we do not have much information about the solution space in urban environments, maximum entropy approach should perform well. 
 
-IRL techniques work on domains that can be modeled by a Markov decision process (MDP). MDP are defined by a tuple M = {S, A, T , γ, r}, where: 
+Current problem can be modeled by a Markov decision process (MDP). MDP are defined by a tuple M = {S, A, T , γ, r}, where: 
 * S - state space of the model
 * A - set of actions that can be performed
 * T - transition function
+* γ - discount factor
 * r - reward function that generates a reward value from reaching a state. 
 
 In order to get r, we need to use a set of expert trajectories T, consisting of “paths” composed of pairs of states and actions.
