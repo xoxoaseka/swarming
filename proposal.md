@@ -1,4 +1,6 @@
-# ML Design Exercise
+![](media/poster.png)
+
+# Final Project Proposal
 
 ## Scenario
 
